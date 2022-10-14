@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F2CF9B;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230e0d0e' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    padding: 2em;
+    border-radius: 20px;
+}
+
+/* Title of the form */
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.title p{
+    margin-bottom: 2rem;
+
+}
+/* Title of the form */
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 20px;
+    box-shadow: -5px 5px 0px 0px rgba(0,0,0,1);
+}
+/* Error msg styles */
+.error-msg{
+    display: none;
+    align-items: center;
+}
+
+.error-msg p {
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.error-msg i {
+    font-weight: 700;
+}
+
+/* Sign up btn styles */
+.btn{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #F0B151 ;
+    font-weight: 900;
+    font-size: 1em;
+    box-shadow: -5px 5px 0px 0px rgba(0,0,0,1);
+    border: none;
+    outline: none;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: -10px 10px 0px 0px rgba(0,0,0,1);
+}
+
+/* Remember me + forgot password styles */
+.form_flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form_flex span{
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+/* Create account styles */
+.create-account{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.create-account a{
+    color: black;
+    font-weight: 600;
+}
